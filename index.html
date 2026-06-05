@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Clip</title>
+
+<style>
+body{
+    margin:0;
+    background:#0f0f0f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+}
+
+.video-card{
+    width:900px;
+    max-width:95%;
+    background:#181818;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 10px 40px rgba(0,0,0,.4);
+}
+
+.video-frame{
+    width:100%;
+    aspect-ratio:16/9;
+    border:none;
+}
+
+.info{
+    padding:16px;
+    color:white;
+}
+
+.title{
+    font-size:20px;
+    font-weight:600;
+}
+</style>
+</head>
+<body>
+
+<div class="video-card">
+    <iframe
+        class="video-frame"
+        src="https://medal.tv/clip/mR31FwkUEVbURf7UK"
+        allowfullscreen>
+    </iframe>
+
+    <div class="info">
+        <div class="title">Gameplay Clip</div>
+    </div>
+</div>
+
+</body>
+</html>
